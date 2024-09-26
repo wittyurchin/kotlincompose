@@ -12,10 +12,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ComposeTutorial"
         tools:targetApi="31">
+<!--        <activity-->
+<!--            android:name=".MainActivity"-->
+<!--            android:exported="true"-->
+<!--            android:label="@string/app_name"-->
+<!--            android:theme="@style/Theme.ComposeTutorial">-->
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
+
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+<!--        </activity>-->
         <activity
-            android:name=".MainActivity"
+            android:name="com.wittyurchin.basicstatecodelab.WellnessAppActivity"
             android:exported="true"
-            android:label="@string/app_name"
+            android:label="@string/app_name_1"
             android:theme="@style/Theme.ComposeTutorial">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
